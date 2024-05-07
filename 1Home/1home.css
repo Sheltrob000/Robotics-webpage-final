@@ -1,10 +1,12 @@
-
+body{
+    background-color: goldenrod;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(126, 206, 233);
+    background-color: goldenrod;
     position: fixed;
     /* Safari */
     position: sticky;
