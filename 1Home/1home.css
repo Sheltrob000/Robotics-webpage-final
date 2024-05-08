@@ -11,10 +11,15 @@ ul {
     /* Safari */
     position: sticky;
     top: 0;
+    
 }
 
 li {
     float: left;
+    border-right: 1px solid black;
+}
+li:last-child {
+    border-right: none;
 }
 
 li a {
@@ -26,8 +31,10 @@ li a {
 }
 
 li a:hover {
-    background-color: gold;
+    background-color: black;
+    color: white
 }
+
 .active {
     background-color: #4CAF50;
 }
