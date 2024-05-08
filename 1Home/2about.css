@@ -26,7 +26,7 @@ li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
 }
 
@@ -37,4 +37,11 @@ li a:hover {
 
 .active {
     background-color: #4CAF50;
+}
+
+.goatlogo{
+    
+    width: 150px;
+    height: 150px;
+    float: right;
 }
