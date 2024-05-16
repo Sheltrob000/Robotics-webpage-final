@@ -20,8 +20,17 @@ ul {
 
 li {
     float: left;
-    border-right: 1px solid black;
+    padding: 5px;
+    /* border-right: 1px solid black; */
 }
+
+.about {
+    background-color: black;
+    color: goldenrod;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px;
+}
+
 li:last-child {
     border-right: none;
 }
@@ -32,6 +41,10 @@ li a {
     text-align: center;
     padding: 10px 12px;
     text-decoration: none;
+    background-color: goldenrod;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px;
+
 }
 
 li a:hover {
@@ -44,12 +57,13 @@ li a:hover {
 }
 
 .goatlogo{
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
     float: right;
     border-radius: 10px;
     box-shadow: 0px 5px 15px 0px;
-
+    padding-top: 10px;
+    background-color: white;
 }
 
 .textholder{
