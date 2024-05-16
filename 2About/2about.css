@@ -6,12 +6,16 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: goldenrod;
+    /* background-color: goldenrod; */
+    background-color: darkgoldenrod;
     position: fixed;
     /* Safari */
     position: sticky;
     top: 0;
-    
+    padding: 20px;
+    padding-top: 10px;
+    box-shadow: 0px 5px 15px 0px black;
+    border-radius: 10px;
 }
 
 li {
@@ -32,7 +36,7 @@ li a {
 
 li a:hover {
     background-color: black;
-    color: white;
+    color: goldenrod;
 }
 
 .active {
@@ -40,8 +44,23 @@ li a:hover {
 }
 
 .goatlogo{
-    
     width: 150px;
     height: 150px;
     float: right;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px;
+
+}
+
+.textholder{
+    background-color: darkslategrey;
+    color: gold;
+    width: 75%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0px 5px 15px 0px black;
+    border-radius: 10px;
+    
 }
