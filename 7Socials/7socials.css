@@ -93,7 +93,7 @@ li a:hover {
     background-color: goldenrod;
     position: fixed;
     /* Safari */
-    position: sticky;
+    position: relative;
     top: 0;
     display: block;
     color: black;
