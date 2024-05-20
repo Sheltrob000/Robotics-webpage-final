@@ -17,6 +17,11 @@ ul {
     box-shadow: 0px 5px 15px 0px black;
     border-radius: 10px;
     min-width: 400px;
+    z-index: 1000;
+}
+.mainday{
+    background-color: black;
+    color: goldenrod;
 }
 
 li {
@@ -69,7 +74,7 @@ li a:hover {
 }
 
 .textholder{
-    background-color: darkslategrey;
+    background-color:rgb(41, 46, 42);
     color: gold;
     width: 75%;
     height: auto;
@@ -80,28 +85,27 @@ li a:hover {
     border-radius: 10px;
 }
 
-@keyframes bounce {
-    from {background-color: goldenrod;}
-    to {background-color: black;}
-}
 .Zelda{
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
     overflow: hidden;
     background-color: goldenrod;
     position: fixed;
     /* Safari */
     position: relative;
-    top: 0;
     display: block;
     color: black;
-    padding: 10px 12px;
+    padding: 10px;
     text-decoration: none;
     width: 200px;
+    box-shadow: 0px 5px 15px 0px black;
+    border-radius: 10px;
+    
 }
 .Zelda:hover{
     background-color: black;
-    color: white
+    color: gold
+}
+@keyframes bounce {
+    from {background-color: goldenrod;}
+    to {background-color: black;}
 }
