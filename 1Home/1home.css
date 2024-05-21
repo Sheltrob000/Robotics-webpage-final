@@ -24,6 +24,10 @@ li {
     padding: 5px;
     /* border-right: 1px solid black; */
 }
+.mainday{
+    background-color: black;
+    color: goldenrod;
+}
 
 .about {
     background-color: black;

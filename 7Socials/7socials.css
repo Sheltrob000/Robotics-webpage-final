@@ -1,6 +1,7 @@
-body{
+body {
     background-color: goldenrod;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -19,7 +20,8 @@ ul {
     min-width: 400px;
     z-index: 1000;
 }
-.mainday{
+
+.mainday {
     background-color: black;
     color: goldenrod;
 }
@@ -63,7 +65,7 @@ li a:hover {
 
 }
 
-.goatlogo{
+.goatlogo {
     width: 50px;
     height: 50px;
     float: right;
@@ -73,8 +75,8 @@ li a:hover {
     background-color: white;
 }
 
-.textholder{
-    background-color:rgb(41, 46, 42);
+.textholder {
+    background-color: rgb(41, 46, 42);
     color: gold;
     width: 75%;
     height: auto;
@@ -85,7 +87,7 @@ li a:hover {
     border-radius: 10px;
 }
 
-.Zelda{
+.Zelda {
     margin: 10px;
     overflow: hidden;
     background-color: goldenrod;
@@ -100,11 +102,39 @@ li a:hover {
     box-shadow: 0px 5px 15px 0px black;
     border-radius: 10px;
 }
-.Zelda:hover{
+
+.Zelda:hover {
     background-color: black;
     color: gold
 }
+
 @keyframes bounce {
-    from {background-color: goldenrod;}
-    to {background-color: black;}
+    from {
+        background-color: goldenrod;
+    }
+
+    to {
+        background-color: black;
+    }
+}
+
+iframe {
+    float: inline-end;
+    margin-right: 500px;
+    width: 50%;
+    height: 800px;
+}
+
+.gab {
+    width: 500px;
+    /* float: inline-end; */
+    margin-right: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 15px 0px black;
+    border-radius: 10px;
+    min-width: 500px;
+    overflow: auto;
+    float: right;
+    min-width: 500px;
 }
