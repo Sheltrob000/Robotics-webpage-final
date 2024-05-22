@@ -24,6 +24,10 @@ li {
     padding: 5px;
     /* border-right: 1px solid black; */
 }
+.mainday{
+    background-color: black;
+    color: goldenrod;
+}
 
 .about {
     background-color: black;
@@ -94,7 +98,6 @@ h2{
     background-color: goldenrod;
     border-radius: 10px;
     box-shadow: 0px 5px 15px 0px;
-    
 }
 h2:hover{
     background-color: black;
@@ -102,8 +105,15 @@ h2:hover{
     animation-name: bounce;
     animation-duration: .3s;
     box-shadow: 0px 5px 15px 0px;
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
 }
 h1{
     text-align: center;
+}
+.holdmestuff {
+    background-color: darkgoldenrod;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px;
+    padding: 20px;
+    overflow: hidden;
 }
